@@ -16,7 +16,7 @@ const shortboard = {
     description:'Quick, precise, technical - you think your ready, but you\'re not.',
     color:  'Red',
     fin: 'Thruster',
-    category:'Intermediate - Advanced',
+    category:'Intermediate-Advanced',
     price: '700.00',
 };
 
@@ -27,7 +27,7 @@ const fish = {
     description: 'Flowy, free soul, retro - you are already surfing better',
     color: 'Orange',
     fin: 'Twin-fin',
-    category:'Intermediate - Advanced',
+    category:'Intermediate-Advanced',
     price: '650.00',
 };
 
@@ -85,4 +85,4 @@ const surfboards = [
     asymmetrical,
 ];
 
-export default surfboards.js;
+export default surfboards;
