@@ -12,8 +12,8 @@ const longboard = {
 
 const shortboard = {
     id: 'shortboard',
-    name:'Red_Shortboard.jpg',
-    image:'',
+    name: 'Sharp Shooter Shortboard',
+    image: 'Red_Shortboard.jpg',
     description:'Quick, precise, technical - you think your ready, but you\'re not.',
     color:  'Red',
     fin: 'Thruster',
