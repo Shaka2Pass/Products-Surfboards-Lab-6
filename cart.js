@@ -1,4 +1,4 @@
-export const cart = [
+const cart = [
     {
         id: 'longboard',
         quantity: 1,
@@ -11,8 +11,10 @@ export const cart = [
     },
 ];
 
-export const cartItems = [
-    { name: 'Log Longboard', Quantity: 1 }, 
-    { name: 'Flying Fish', Quantity: 2 }, 
-    { name: 'Gun It Step Up', Quantity: 1 },
-];
+export default cart;
+
+// export const cartItems = [
+//     { name: 'Log Longboard', Quantity: 1 }, 
+//     { name: 'Flying Fish', Quantity: 2 }, 
+//     { name: 'Gun It Step Up', Quantity: 1 },
+// ];

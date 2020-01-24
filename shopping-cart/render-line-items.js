@@ -32,10 +32,6 @@ export default renderLineItem;
 
 
 
-}
-
-
-
 
 
 

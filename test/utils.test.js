@@ -1,6 +1,6 @@
 import surfboards from '../surfboards.js';
-//import cart from '../cart.js';
-import { findById, calcLineTotal, } from '../utils.js';
+import cart from '../cart.js';
+import { findById, calcLineTotal, calcOrderTotal } from '../utils.js';
 const test = QUnit.test;
 
 
@@ -47,5 +47,16 @@ test('find the total of some quantity and some amount',
         assert.equal(total, expected);
 
     });
+
+test('calculate surfboard order total', (assert) => {
+
+    const expected = 5900.00;
+
+    const orderTotal = calcOrderTotal(cart, surfboards);
+
+    assert.equal(orderTotal, expected);
+
+    return console.log('YOU OWE US MORE MONEY!');
+});
 
 
